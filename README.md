@@ -44,9 +44,10 @@ LegalCrawl besteht aus zwei Gruppen von Crawlern:
 | Saarland | `common_crawl/saarland_crawler.py` | [recht.saarland.de](https://recht.saarland.de) | Selenium |
 | Sachsen-Anhalt | `common_crawl/sachsen_anhalt_crawler.py` | [landesrecht.sachsen-anhalt.de](https://www.landesrecht.sachsen-anhalt.de) | Selenium |
 | Schleswig-Holstein | `common_crawl/sh_crawler.py` | [sh.juris.de](https://www.sh.juris.de) | Selenium |
+| Niedersachsen | `custom_crawl/niedersachsen_crawler.py` | [voris.wolterskluwer-online.de](https://voris.wolterskluwer-online.de) | Selenium |
 | Thüringen | `common_crawl/thueringen_crawler.py` | [landesrecht-thueringen.de](https://www.landesrecht-thueringen.de) | Selenium |
 
-> **Hinweis:** Crawler für **Bremen**, **Niedersachsen** und **Sachsen** sind noch nicht enthalten, werden aber nachgeliefert.
+> **Hinweis:** Crawler für **Bremen** und **Sachsen** sind noch nicht enthalten, werden aber nachgeliefert.
 
 ## Installation
 
@@ -157,7 +158,8 @@ legalcrawl/
 │   ├── bayern_crawler.py        # Bayern (requests)
 │   ├── brandenburg_crawler.py   # Brandenburg (Selenium)
 │   ├── bverfg_crawler.py        # Bundesverfassungsgericht (requests)
-│   └── nrw_crawler.py           # Nordrhein-Westfalen (Selenium)
+│   ├── nrw_crawler.py           # Nordrhein-Westfalen (Selenium)
+│   └── niedersachsen_crawler.py  # Niedersachsen (Selenium)
 ├── pyproject.toml
 └── README.md
 ```
