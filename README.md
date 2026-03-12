@@ -69,11 +69,7 @@ uv sync
 pip install -e .
 ```
 
-Für Selenium-basierte Crawler wird automatisch der passende ChromeDriver über `webdriver-manager` heruntergeladen. Zusätzlich müssen Selenium-Abhängigkeiten installiert sein:
-
-```bash
-uv pip install selenium webdriver-manager
-```
+Für Selenium-basierte Crawler wird automatisch der passende ChromeDriver über `webdriver-manager` heruntergeladen. Alle notwendigen Abhängigkeiten (inkl. `selenium` und `webdriver-manager`) sind bereits in `pyproject.toml` enthalten und werden mit `uv sync` installiert.
 
 ## Nutzung
 
