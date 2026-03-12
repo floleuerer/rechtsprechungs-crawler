@@ -1,0 +1,12 @@
+[project]
+name = "legalcrawl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "requests>=2.32.5",
+    "tenacity>=9.1.2",
+]
